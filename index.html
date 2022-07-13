@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Js Project</title>
+</head>
+
+<body>
+
+    <section class="section">
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#">خانه</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                        <li><a href="#">محصولات</a></li>
+                        <li><a href="#">خبرنامه</a></li>
+                    </ul>
+                    <a href="#" class="logo">ParsFront</a>
+                </nav>
+            </div>
+        </header>
+
+
+        <div class="content">
+            <div class="container">
+                <div class="contentBox">
+                    <div class="textBox">
+                        <h2>این یکی از <span>بهترین</span> چیزهایی هست که دیدم</h2>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در
+                            شصت و سه درصد گذشته، </p>
+                        <a href="#">خواندن بیشتر</a>
+                    </div>
+                    <div class="imgBox">
+                        <img src="./img/blue.png" class="bmw" alt="">
+                    </div>
+                </div>
+
+
+                <ul class="thumb">
+                    <li><img src="./img/blue.png" onclick="imageSlider('./img/blue.png');changeBgColor('#0259aa')" alt="">
+                    </li>
+                    <li><img src="./img/red.png" onclick="imageSlider('./img/red.png');changeBgColor('#a1041b')" alt="">
+                    </li>
+                    <li><img src="./img/black.png" onclick="imageSlider('./img/black.png');changeBgColor('#1a1a1a')" alt="">
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+
+        <ul class="social">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+
+    </section>
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
